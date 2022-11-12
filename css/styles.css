@@ -16,6 +16,7 @@
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 /* Logo */
 .logo {
@@ -44,6 +45,7 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -57,10 +59,12 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-contact .link:hover,
 .site-contact .link:focus {
   color: var(--accent-color);
+  letter-spacing: 0.02em;
 }
 
 /* Секція hero */
@@ -71,14 +75,17 @@
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 .button.hero {
   background-color: var(--accent-color);
   color: var(--white-color);
-
+  cursor: pointer;
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 .button.hero:hover,
 .button.hero:focus {
@@ -141,6 +148,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .product-list .text {
   color: var(--primary-text-color);
